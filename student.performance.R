@@ -48,6 +48,7 @@ cor.data <- cor(df[,num.cols])
 cor.data
 
 ### Plot correlated numerical Values
+
 corrplot(cor.data,method='color')
 
 corrgram(df,order=TRUE, lower.panel=panel.shade,
