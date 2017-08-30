@@ -37,12 +37,12 @@ str(df)
 
 # Exploritory Data Analysis
 
-## Corrilation 
+## Correlation 
 
 ### Grab only numeric columns
 num.cols <- sapply(df, is.numeric)
 
-### Filter to numeric columns for correlation
+### Filter numeric columns for correlation
 cor.data <- cor(df[,num.cols])
 
 cor.data
